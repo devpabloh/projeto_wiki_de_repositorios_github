@@ -1,36 +1,26 @@
 import styled from "styled-components";
 
 export const ItemContainer = styled.div`
+    width: 80%;
 
-width: 80%;
+    h3 {
+        font-size: 32px;
+        color: #FAFAFA;
+    }
 
-h3{
+    p {
+        font-size:16px;
+        color: #FAFAFA60;
+        margin-bottom:20px;
+    }
 
-    font-size: 32px;
-    color: #FAFAFA;
-}
+    a.remover {
+        color: #FF0000;
+        margin-top:20px;
+    }
 
-p{
-
-    font-size:16px;
-    color: #FAFAFA60;
-    margin-bottom: 20px;
-
-}
-
-a.remover{
-
-    color: #FF0000;
-    margin-top: 20px;
-}
-
-hr{
-
-    color: #FAFAFA;
-    margin: 20px 0;
-
-}
-
-
-
+    hr {
+        color: #FAFAFA60;
+        margin: 20px 0;
+    }
 `
